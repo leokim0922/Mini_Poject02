@@ -4,7 +4,7 @@ import requests
 
 app = Flask(__name__)
 
-client = MongoClient('13.125.243.221', 27017, username="test", password="test")
+client = MongoClient('AWSIP', 27017, username="////", password="////")
 db = client.dbsparta_plus_week2
 
 
